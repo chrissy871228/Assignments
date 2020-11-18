@@ -1,0 +1,31 @@
+#outer {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: 40px;
+    background: #35664b;
+}
+#inner {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 80px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: #354b66; 
+}
+*{
+    width: 1120px;
+    height: 1020px;
+    float: left;
+    margin-top: 0px;
+    background:#6c979e; 
+}
+h1{
+    font-family: font-family: 'Ubuntu', sans-serif;
+    background-color: #FAF5BA;
+    width: 1120px;
+    height: 100px;
+    margin-left: 0;
+
+}

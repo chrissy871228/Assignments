@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eeeeee;
+}
+h1{
+    font-size: 28px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px;
+    display: block;
+    background-color: #ffe173;
+    color: #5e3d02;
+}
+h2{
+    font-size: 20px;
+    font-family:'Ubuntu', sans-serif;
+    padding:20px;
+    text-align: center;
+    display:block;
+    color: #5e3d02;
+}
+.left{
+    width: 200px;
+    height: 1200px;
+    float: left;
+    background-color: #EFD9B6;
+}
+.right{
+    width: 200px;
+    height: 1200px;
+    float: right;
+    background-color: #EFD9B6;
+}
+.yellow{
+    width:100px;
+    height:100px; 
+    margin-left: 450px;
+    margin-top: 10px;
+    background-color: #ffe173;
+    
+}
+.orange{
+    width:100px;
+    height:100px; 
+    margin-left: 950px;
+    margin-top: 10px;
+    background-color: #fab273;
+}
+.red{
+    width:100px;
+    height:100px; 
+    margin-left: 450px;
+    margin-top: 10px;
+    background-color: #fa7373;
+}
+.purple{
+    width:100px;
+    height:100px;
+    margin-left: 950px;
+    margin-top:10px;
+    background-color: #e373fa;
+}
+.blue{
+    width:100px;
+    height:100px;
+    margin-left: 450px;
+    margin-top:10px;
+    background-color: #7390fa;
+}
+.green{
+    width:100px;
+    height:100px;
+    margin-left: 950px;
+    margin-top:10px;
+    background-color: #73fa81;
+}
+.click{
+    font-size: 20px;
+    font-family:'Ubuntu', sans-serif;
+    padding:25px;
+    text-align: center;
+    display:block;
+    color: #5e3d02;
+    text-decoration: none;
+}
+.click:hover{
+    text-decoration: underline;
+    text-decoration-color: #5e3d02;
+}
