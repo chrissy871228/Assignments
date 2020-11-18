@@ -1,91 +1,58 @@
 *{
     margin: 0;
     padding: 0;
-}
-body{
-    background-color: #eeeeee;
+    background-color: #73605B;
 }
 h1{
-    font-size: 28px;
     font-family: 'Ubuntu', sans-serif;
-    padding: 20px;
-    display: block;
-    background-color: #ffe173;
-    color: #5e3d02;
-}
-h2{
-    font-size: 20px;
-    font-family:'Ubuntu', sans-serif;
-    padding:20px;
+    font-size: 30px;
+    color: #D09683;
     text-align: center;
-    display:block;
-    color: #5e3d02;
+    padding: 100px;
 }
-.left{
-    width: 200px;
-    height: 1200px;
-    float: left;
-    background-color: #EFD9B6;
+.list{
+    display: inline-block;
+    padding: 100px;
+    margin-left: 30px;
 }
-.right{
-    width: 200px;
-    height: 1200px;
-    float: right;
-    background-color: #EFD9B6;
-}
-.yellow{
-    width:100px;
-    height:100px; 
-    margin-left: 450px;
-    margin-top: 10px;
-    background-color: #ffe173;
-    
-}
-.orange{
-    width:100px;
-    height:100px; 
-    margin-left: 950px;
-    margin-top: 10px;
-    background-color: #fab273;
-}
-.red{
-    width:100px;
-    height:100px; 
-    margin-left: 450px;
-    margin-top: 10px;
-    background-color: #fa7373;
-}
-.purple{
-    width:100px;
-    height:100px;
-    margin-left: 950px;
-    margin-top:10px;
-    background-color: #e373fa;
-}
-.blue{
-    width:100px;
-    height:100px;
-    margin-left: 450px;
-    margin-top:10px;
-    background-color: #7390fa;
-}
-.green{
-    width:100px;
-    height:100px;
-    margin-left: 950px;
-    margin-top:10px;
-    background-color: #73fa81;
-}
-.click{
-    font-size: 20px;
-    font-family:'Ubuntu', sans-serif;
-    padding:25px;
-    text-align: center;
-    display:block;
-    color: #5e3d02;
+a{
     text-decoration: none;
+    color: #D09683;
+    font-family: 'Ubuntu', sans-serif ;
 }
-.click:hover{
+a:hover{
     text-decoration: underline;
-    text-decoration-color: #5e3d02;
+}
+.circle1{
+    margin-left: 165px;
+    margin-top: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circle2{
+    margin-left: 350px;
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circle3{
+    margin-left: 350px;
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circle4{
+    margin-left: 350px;
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
 }
