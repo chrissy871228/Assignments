@@ -1,0 +1,71 @@
+/* overall style*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.poem{
+    font-family: 'Inconsolata', monospace;
+    text-align:left;
+    padding: 20%;
+    font-size: 30px;
+}
+
+/*poem 1 page*/
+#sunrise{
+    text-decoration: none;
+    color: black;
+}
+#sunrise:hover{
+    text-shadow: 1px 1px 3px #f77c48;
+}
+#linethrough{
+    display: inline-block;
+}
+#linethrough:hover{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+/*sunrise page*/
+.sunriseimg{
+    padding-top: 2%;
+}
+
+#orange{
+    color: #f77c48;
+    display: inline-block;
+}
+
+/* poem 2 page*/
+
+#spring{
+    text-decoration: none;
+    color: black;
+}
+#spring:hover{
+    text-shadow: 1px 1px 3px #fa73bf;
+}
+/* spring page*/
+.springimg{
+    padding-left: 50%;
+}
+#pink{
+    color: #fa73bf;
+    display: inline-block;
+}
+/* poem 3 page */
+#brighten{
+    text-decoration: none;
+    color: black;
+}
+#brighten:hover{
+    text-shadow: 1px 1px 3px #fff585;
+}
+/* brighten page */
+#yellow{
+    color: #fff585;
+    display: inline-block;
+}
+.sunshineimg{
+    padding-left: 50%;
+}
