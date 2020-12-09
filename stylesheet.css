@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f5ceb5;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: #73605B;
+    text-align: center;
+    padding: 100px;
+}
+.list{
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #73605B;
+    font-family: 'Ubuntu', sans-serif ;
+}
+a:hover{
+    text-decoration: underline;
+}
