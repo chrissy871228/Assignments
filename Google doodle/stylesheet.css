@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.logo{
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+}
+.logobackground{
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+}
+.filmrow{
+    padding-left: 12px;
+}
+#o1{
+    background-image: url(o1.png);
+    height: 200px;
+    width: auto;
+}
+.o1:hover .hover1{
+    opacity:1;
+}
+
+.history{
+    margin: auto;
+    width: 80%;
+    padding: 5%;
+}
+
+.toplogo{
+    margin: 1%;
+}
+
+h1{
+    padding: bottom 3%;
+}
+h2{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.moviepic{
+    display: inline-block;
+    padding: 1%;
+    margin-left: 25%;
+}
+
+
+#G:hover, #g:hover, #l:hover, #e:hover {
+    animation: bounce 1s infinite;
+}
+
+#o1:hover, #o2:hover {
+    animation: spin 1s infinite;
+    z-index: 0;
+}
+
+
+@keyframes bounce {
+    0%, to {
+        transform: translateY(-15px);
+        animation-timing-function: cubic-bezier(.8, 0, 1, 1);
+    }
+
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0, 0, .2, 1);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
